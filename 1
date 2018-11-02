@@ -1,0 +1,18 @@
+//language swift playground: answer
+var Pi:Double = 0
+var Repeat:Bool = true
+var PosNeg:Double = 1
+var Deno:Double = 1
+var count:Int = 10000
+while Repeat == true {
+    Pi = Pi + PosNeg * 4/Deno
+    Deno = Deno + 2
+    PosNeg = PosNeg * -1
+    count = count - 1
+    if count == 0 {
+        show (Pi)
+        count = 10000
+    }
+    else {
+    }
+}
